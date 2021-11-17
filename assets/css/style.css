@@ -4,7 +4,33 @@
 .bg-soft-pink{
     background-color: #f598d9;
 }
+.bg-mocca{
+    background-color: moccasin;
+}
 
 .tinggi{
-    height: 800px;
+    height: 600px;
 }
+
+.kotak{
+    height: 300px;
+}
+
+.bingkaitext{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+}
+
+body:before {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    background-size:cover;
+    background-position:center top;
+    display: block;
+    background-image: url("../../img/bg.png");
+    width: 100%;
+    height: 100%;
+    filter: blur(2px) ;
+    -webkit-filter: blur(2px) ;
+  }
